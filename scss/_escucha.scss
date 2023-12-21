@@ -1,0 +1,19 @@
+
+.escucha li{
+    list-style: none;
+    border: 3px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .escuchamain{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  
+  .escuchamain p{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
