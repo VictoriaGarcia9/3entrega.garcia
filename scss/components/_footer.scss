@@ -1,0 +1,16 @@
+footer {
+
+  .contenidodelproyecto {
+    .img-proyecto {
+      @include medidas-base-img();
+    }
+  }
+
+  .img-proyecto {
+    @include medidas-base-img();
+
+  }
+
+  margin-top: 50px;
+  margin-left: 20px;
+}

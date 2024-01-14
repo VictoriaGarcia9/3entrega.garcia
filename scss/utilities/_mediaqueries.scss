@@ -1,0 +1,96 @@
+  /* inicio media queries tablet  */
+  @media screen and (max-width:1024px) {
+
+    .navmentiv {
+      display: none;
+    }
+
+    header.navbarr {
+
+      display: block;
+      .img-proyecto{ width: 100px;
+      height: 100px;
+      border-radius: 50px;}
+
+    }
+  }
+
+
+
+  @media screen and (max-width:1024px) {
+    .aprendeheader {
+      display: none;
+    }
+
+    .navbarraprende {
+      display: block;
+    }
+  }
+
+
+  @media screen and (max-width:1024px) {
+    .headerescucha {
+      display: none;
+    }
+
+    .navbarrescucha {
+      display: block;
+    }
+  }
+
+
+  @media screen and (max-width:1024px) {
+    .registraheader {
+      display: none;
+    }
+
+    .navbarrregistra {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+    .headerver {
+      display: none;
+    }
+
+    .navbarrver {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+    .headercontacto {
+      display: none;
+    }
+
+    .navbarrcontacto {
+      display: block;
+    }
+  }
+
+
+
+  /* inicio media queries mobile */
+  @media screen and (max-width:768px) {
+    .navmentiv {
+      display: none;
+    }
+
+    .navbar {
+      display: block;
+    }
+
+    ul {
+      .navbar-nav {
+        li {
+          padding: auto;
+          border: 1em;
+          text-align: end;
+          padding-left: 1rem;
+          font-size: 0rem;
+        }
+      }
+    }
+  }
+  
